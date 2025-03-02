@@ -30,14 +30,14 @@ python 403-Bypasser.py [-h HELP] [-u URL] [-p PATH] [-z USER_AGENT] [--proxy PRO
 ### **Arguments**
 | Flag | Description |
 |------|------------|
-| `-u, --url URL` | The URL or domain to bypass. |
-| `-p, --path PATH` | The path to bypass. |
-| `-z, --user-agent [USER_AGENT]` | Custom or random User-Agent (`-z 'Custom-Agent'` for custom, `-z` for random). |
+| `-u, --url` | The URL or domain to bypass. |
+| `-p, --path` | The path to bypass. |
+| `-z, --user-agent` | Custom or random User-Agent (`-z 'Custom-Agent'` for custom, `-z` for random). |
 | `--proxy PROXY_URL` | Proxy to use for requests `[http(s)://host:port]`. |
 | `-k, --insecure` | Allow insecure server connections. |
 | `-v, --verbose` | Increase verbosity of results. |
-| `-wb, --wayback-machine WAYBACK_MACHINE` | Check a domain or URL in the Wayback Machine. |
-| `-o, --output OUTPUT` | Save Wayback Machine results to a file. |
+| `-wb, --wayback-machine` | Check a domain or URL in the Wayback Machine. |
+| `-o, --output` | Save Wayback Machine results to a file. |
 
 ## **Examples**
 ### **Basic 403 Bypass**
