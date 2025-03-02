@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## **Usage**  
 ```bash
-python 403-Bypasser.py [-h] -u URL [-p PATH] [-z [USER_AGENT]] [--proxy PROXY_URL] [-k] [-v] [-wb WAYBACK_MACHINE] [-o OUTPUT]
+python 403-Bypasser.py [-h HELP] [-u URL] [-p PATH] [-z USER_AGENT] [--proxy PROXY_URL] [-k INSECURE] [-v VERBOSE] [-wb WAYBACK_MACHINE] [-o OUTPUT]
 ```
 
 ### **Arguments**
